@@ -1,0 +1,19 @@
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+flex: 0 0 calc(33.33% - 20px);
+margin: 10px;
+}
+
+.col img {
+display: block;
+width: 100%;
+height: auto;
+max-width: 200px;
+max-height: 200px;
+}
+
